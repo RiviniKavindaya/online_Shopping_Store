@@ -34,35 +34,41 @@ Welcome to the Online Shopping Store project! This project aims to create an e-c
 
    ```bash
    git clone https://github.com/RiviniKavindaya/online-shopping-store.git
-Navigate to the project directory:
-cd online-shopping-store
-
-```
+   
+2.Navigate to the project directory:
+  
+    cd online-shopping-store
 
 2.Install backend dependencies:
-composer install
 
-Copy the .env.example file to .env and update the database configuration with your MySQL credentials.
-cp .env.example .env
+    composer install
 
+3.Copy the .env.example file to .env and update the database configuration with your MySQL credentials.
 
+    cp .env.example .env
 
-Migrate the database and seed it with initial data:
-php artisan migrate --seed
+4. Migrate the database and seed it with initial data:
 
-Navigate to the frontend directory:
-cd frontend
+       php artisan migrate --seed
+   
 
-Install frontend dependencies:
-npm install
+6. Navigate to the frontend directory:
+
+       cd frontend
+
+7.Install frontend dependencies:
+
+          npm install
 
 ### Usage
 
 Start the Laravel development server:
-php artisan serve
+
+        php artisan serve
 
 Start the React development server:
-npm start
+
+      npm start
 
 Open your browser and visit http://localhost:3000 to view the application.
 
