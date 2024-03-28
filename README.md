@@ -4,7 +4,7 @@ Welcome to the Online Shopping Store project! This project aims to create an e-c
 
 ## Features
 
-- Browse through a wide range of products
+- Browse the products
 - Add products to the shopping cart
 - Remove products from the shopping cart
 - View detailed product information
