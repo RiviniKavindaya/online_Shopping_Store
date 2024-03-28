@@ -1,0 +1,59 @@
+/* Main Content Styles */
+.main-content {
+    padding: 20px;
+}
+
+/* User Table Styles */
+.custom-user-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.custom-user-table th,
+.custom-user-table td {
+    border: 1px solid #dddddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.custom-user-table th {
+    background-color: #f2f2f2;
+}
+
+/* Button Styles */
+.custom-user-table button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.custom-user-table button:hover {
+    background-color: #ff6b6b;
+}
+
+.custom-user-table a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.custom-user-table a:hover {
+    text-decoration: underline;
+}
+.edit-product-button {
+    display: inline-block;
+    width: 100%;
+    background-color: #124235;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+    align-content: center;
+}

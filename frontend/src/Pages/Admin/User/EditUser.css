@@ -1,0 +1,17 @@
+.backbutton1 {
+    background-color: #2b47e4; /* Green background */
+    border: none;
+    color: rgb(104, 220, 84); 
+    
+    text-align: center; 
+    text-decoration: none; 
+    font-size: 16px; 
+   
+    cursor: pointer; 
+   
+    margin-top: 10px;
+}
+.backbutton1:hover {
+    background-color: #45a049; 
+    color: white;
+}
